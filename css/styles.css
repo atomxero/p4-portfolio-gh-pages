@@ -1,6 +1,13 @@
 /* Your Website Styles */
 
 
+html{ 
+  background: url("../img/beach-campfire-night.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /* Gallery Stying */
 .gallery .control-button {
@@ -23,7 +30,7 @@
   height: 400px;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
+ 
 }
 .gallery .controls {
   position: absolute;
@@ -47,6 +54,8 @@
 
 
 /* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
+
+
+
+
+
