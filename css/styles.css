@@ -9,9 +9,15 @@ html{
   background-size: cover;
 }
 
+
+h1{
+  font-family: 'Lobster', cursive;
+  color: #fa3e3e;
+  text-align: center;
+}
 /* Gallery Stying */
 .gallery .control-button {
-  color: #ccc;
+  color: #fff;
   color: rgba(255, 255, 255, 0.4);
 }
 
