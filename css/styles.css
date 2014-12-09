@@ -15,15 +15,21 @@ h1{
   color: #fa3e3e;
   text-align: center;
 }
+
+h4{
+  font-family: 'Lato', sans-serif;
+  color: #f8f8d6;
+  text-align: center;
+}
 /* Gallery Stying */
 .gallery .control-button {
-  color: #fff;
-  color: rgba(255, 255, 255, 0.4);
+  color: #fa3e3e;
+
 }
 
 .gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fa3e3e;
+  
 }
 
 /*
@@ -31,32 +37,39 @@ h1{
 */
 .gallery {
   position: relative;
+
+
 }
 .gallery .item {
-  height: 400px;
+  height: 960px;
+  width: 700px
   overflow: hidden;
   text-align: center;
+   
+
+
  
 }
 .gallery .controls {
   position: absolute;
-  bottom: -120px;
+  bottom: 100px;
   width: 100%;
   text-align: center;
 }
 
 .gallery .controls img {
-  border: 5px solid #000;
+  border: 5px solid #f8f8d6;
 }
 
 .gallery .control-button {
   display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
+  margin: 0;
+  font-size: 16px;
   text-align: center;
   text-decoration: none;
-  transition: color .1s;
+  transition: #f8f8d6 .1s;
 }
+
 
 
 /* Show Grid */
