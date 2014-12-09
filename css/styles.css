@@ -14,6 +14,7 @@ h1{
   font-family: 'Lobster', cursive;
   color: #fa3e3e;
   text-align: center;
+  font-size: 48px;
 }
 
 h4{
@@ -22,12 +23,13 @@ h4{
   text-align: center;
 }
 /* Gallery Stying */
-.gallery .control-button {
-  color: #fa3e3e;
 
+
+p {
+  color: #f8f8d6;
 }
 
-.gallery .control-button:hover {
+p:hover{
   color: #fa3e3e;
   
 }
@@ -38,14 +40,11 @@ h4{
 .gallery {
   position: relative;
 
-
 }
 .gallery .item {
   height: 960px;
-  width: 700px
   overflow: hidden;
   text-align: center;
-   
 
 
  
@@ -59,15 +58,23 @@ h4{
 
 .gallery .controls img {
   border: 5px solid #f8f8d6;
+  border-radius: 60px;
 }
+
+.gallery .controls img:hover {
+  border: 5px solid #fa3e3e;
+  border-radius: 60px;
+}
+
 
 .gallery .control-button {
   display: inline-block;
   margin: 0;
   font-size: 16px;
   text-align: center;
+  color: #fa3e3e;
   text-decoration: none;
-  transition: #f8f8d6 .1s;
+ 
 }
 
 
